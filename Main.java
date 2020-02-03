@@ -91,6 +91,5 @@ public class Main extends PDFTextStripper {
     @Override
     protected void writeString(String str, List<TextPosition> textPositions) throws IOException {
         lines.add(str);
-        // you may process the line here itself, as and when it is obtained
     }
 }
