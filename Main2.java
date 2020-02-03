@@ -89,7 +89,6 @@ public class Main2 extends PDFTextStripper {
                         }
 
                         if ( lines.get( j + 9 ).trim().contains("Branch") ) {
-                            // loop until you find the next GM%
                             j = j + 30;
 
                             if ( lines.get( j + 1 ).trim().startsWith("2001-") ) {
